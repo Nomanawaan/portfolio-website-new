@@ -10,18 +10,18 @@
 /* container css start */
 .container {
     width: 98.9vw;
-    height: 100vw;
+    /* height: 300vw; */
     background: #03182e;
 }
 
 /* header css start */
 header {
-    width: 90vw;
+    width: 85vw;
     height: 10vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-left: 4vw;
+    margin-left: 7vw;
 }
 
 .header-left {
@@ -87,9 +87,9 @@ a.hr {
 
 /* hero sec css start */
 .hero-sec {
-    width: 90vw;
+    width: 85vw;
     height: 31vw;
-    margin-left: 4vw;
+    margin-left: 7vw;
     display: flex;
     justify-content: space-between;
 }
@@ -100,7 +100,10 @@ a.hr {
     margin-top: 5vw;
     display: flex;
     flex-direction: column;
+    position: relative;
 }
+
+.float-right {}
 
 .top-p {
     color: #85909e;
@@ -140,7 +143,7 @@ a.hr {
 .bottom-p {
     font-size: 1.6vw;
     color: #959eab;
-    line-height: 1.6vw;
+    line-height: 2vw;
 }
 
 button.hrl {
@@ -159,7 +162,7 @@ a#hrl {
 .hero-sec-right {
     width: 30vw;
     height: 25vw;
-    margin-right: 5vw;
+    /* margin-right: 5vw; */
     margin-top: 3vw;
     display: flex;
     align-items: center;
@@ -222,35 +225,557 @@ a#hrl {
 
 /* hero sec css end */
 
-
-.line-container{
+/* sec between line css start */
+.line-container {
     width: 90vw;
     height: 0.1vw;
     margin: 10vw 0vw 10vw 5vw;
     background: linear-gradient(to right, rgba(100, 255, 218, 0), rgba(100, 255, 218, 0.5), rgba(100, 255, 218, 0));
 }
 
+/* sec between line css end */
+
 /* sec 1 css start */
-.sec-1{
-    width: 90%;
-    height: 30vw;
-    background: red;
-    margin-left: 4vw;
-}
-.sec-1 h2{
-    font-weight: bold;
-    color: #ffffff; /* White color for the text */
-    border-bottom: 2px solid #6fc3df; /* underline with bottom border */
-    display: inline-block;
-    margin-bottom: 0;
+.sec-1 {
+    width: 85vw;
+    height: 36vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
 }
 
+.heading {
+    width: 85vw;
+    height: 7vw;
+}
+
+.heading h2 {
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+    position: relative;
+    font-size: 2.5vw;
+}
+
+.heading h2::after {
+    content: "";
+    display: block;
+    height: 0.1vw;
+    width: 70vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1.8vw;
+    left: 15vw;
+}
+
+.sec-1-inner {
+    width: 85vw;
+    height: 32vw;
+    display: flex;
+    column-gap: 2vw;
+}
+
+.sec-1-left {
+    width: 60vw;
+    height: 27vw;
+    padding: 4vw 0vw;
+}
+
+.sec-1-left p {
+    color: #d0d5db;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+.sec-1-right {
+    width: 30vw;
+    height: 32vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-1-right-inner {
+    width: 29vw;
+    height: 31vw;
+    border: 0.2vw solid #00fae1;
+    border-radius: 1vw;
+    padding: 2vw 2vw;
+}
+
+.sec-1-right-inner h4 {
+    font-size: 2.5vw;
+    font-weight: 800;
+    color: #e3f1ff;
+    margin-bottom: 2vw;
+}
+
+.sri-box {
+    display: flex;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+.sri-box i {
+    background: #00d6a1;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 10vw;
+    font-size: 1.4vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sri-box p {
+    font-size: 1.8vw;
+    font-weight: 600;
+    color: #d0d5db;
+}
 
 /* sec 1 css end */
 
 
+/* sec 2 css start */
+.sec-2 {
+    width: 85vw;
+    height: 48vw;
+    margin-left: 7vw;
+}
+
+.sec-2-inner {
+    width: 85vw;
+    height: 45vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* gap: 1vw; */
+    /* margin-top: 2vw; */
+    padding-top: 3vw;
+}
+
+.s2i-box {
+    width: 42vw;
+    height: 19vw;
+    display: flex;
+    flex-direction: column;
+    border: 0.2vw solid #003b59;
+    border-radius: 1vw;
+    padding: 2vw;
+    background: #012140;
+}
+
+.s2i-box:hover {
+    box-shadow: 0px 0px 25px 5px #5d5555;
+    transform: translate(0.2vw, 0.2vw);
+}
+
+.box-cont {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 2vw;
+}
+
+.box-cont i {
+    font-size: 2.8vw;
+    color: white;
+}
+
+i.css {
+    color: #0083f5;
+}
+
+i.js {
+    color: #ffbd17;
+}
+
+i.bootstrap {
+    color: #915bf5;
+}
+
+.box-cont h3 {
+    font-size: 1.6vw;
+    color: #e3f1ff;
+}
+
+.cont {
+    font-size: 1.5vw;
+}
+
+.cont p {
+    line-height: 1.8vw;
+    color: #c9cfd6;
+}
+
+.line {
+    width: 38vw;
+    height: 1vw;
+    border-radius: 5vw;
+    background: #1a3a59;
+    margin-top: 2vw;
+}
+
+p.html {
+    width: 34vw;
+    height: 1vw;
+    background: rgb(112, 112, 216);
+    border-radius: 5vw;
+}
+
+p.css {
+    width: 32vw;
+    height: 1vw;
+    background: rgb(112, 112, 216);
+    border-radius: 5vw;
+}
+
+p.js {
+    width: 30vw;
+    height: 1vw;
+    background: rgb(112, 112, 216);
+    border-radius: 5vw;
+}
+
+p.bootstrap {
+    width: 34vw;
+    height: 1vw;
+    background: rgb(112, 112, 216);
+    border-radius: 5vw;
+}
+
+p.percent {
+    width: 38vw;
+    background: none;
+    margin-top: 0.5vw;
+    text-align: right;
+    color: #c9cfd6;
+    font-size: 1.8vw;
+}
+
+
+/* sec 2 css end */
+
+/* sec 3 css start */
+.sec-3 {
+    width: 85vw;
+    height: 25vw;
+    margin-left: 7vw;
+    /* background: red; */
+}
+
+.sec-3 .heading h2::after {
+    content: "";
+    display: block;
+    height: 0.2vw;
+    width: 67vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1.8vw;
+    left: 18vw;
+}
+
+/* .portfolio-sec{
+    width: 85vw;
+    height: 27vw;
+    background: yellow;
+    padding-top: 3vw;
+    gap: 1vw;
+    display: flex;
+}
+.portfolio-box{
+    width: 30vw;
+    height: 24vw;
+    background: linear-gradient(to bottom, #021a30, #021b33);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: relative;
+} */
+
+/* Container grid */
+.grid-container {
+    width: 85vw;
+    height: 20vw;
+    display: flex;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+/* Individual boxes */
+.hover-box {
+    width: 28vw;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #011d3b;
+    /* background as per your style */
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 26vw;
+    height: 18vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container i {
+    font-size: 6vw;
+    color: #1a5e91;
+}
+
+/* Images
+.initial-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease;
+} */
+
+/* Overlay text that appears on hover */
+.hover-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26vw;
+    height: 16vw;
+    background: #1E2B4D;
+    color: #fff;
+    opacity: 0;
+    padding: 2vw;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: opacity 0.3s ease;
+    text-align: center;
+}
+
+.hover-text h3 {
+    margin-bottom: 1vw;
+}
+
+.hover-text p {
+    line-height: 1.6vw;
+}
+
+.hover-box:hover .hover-text {
+    opacity: 1;
+}
+
+/* Optional: fade out image when hover text appears */
+.hover-box:hover .initial-img {
+    opacity: 0;
+}
+
+/* Styling for tags/buttons */
+.tags {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags span {
+    background-color: #2c3e50;
+    /* Darker background for tags */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
 
 
 
+
+
+
+/* sec 3 css end */
+
+/* sec 4 css start */
+.sec-4 {
+    width: 85vw;
+    height: 29vw;
+    margin-left: 7vw;
+}
+
+.sec-4 .heading h2::after {
+    content: "";
+    display: block;
+    height: 0.1vw;
+    width: 67vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 1.8vw;
+    left: 18vw;
+}
+
+.git-inner-sec {
+    display: flex;
+    gap: 2vw;
+}
+
+.git-inner-sec-left {
+    width: 42vw;
+    /* background: red; */
+}
+
+.git-inner-sec-left h2 {
+    margin-bottom: 0.6vw;
+    color: #00f5e4;
+    font-size: 2.5vw;
+}
+
+.git-inner-sec-left p {
+    color: white;
+    font-size: 1.6vw;
+}
+
+.git-inner-contact {
+    margin-top: 3vw;
+}
+
+.email {
+    display: flex;
+    gap: 1vw;
+}
+
+.email-icon {
+    width: 3.5vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    /* margin-top: 1vw; */
+    color: white;
+    background: #012140;
+}
+
+.email-content h5 {
+    color: #85909e;
+    font-size: 1.5vw;
+}
+
+.email-content h3 a {
+    color: white !important;
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+.phone {
+    display: flex;
+    margin-top: 1vw;
+    gap: 1vw;
+}
+
+.phone-icon {
+    width: 3.5vw;
+    height: 3.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2vw;
+    font-size: 1.4vw;
+    /* margin-top: 1vw; */
+    color: white;
+    background: #012140;
+}
+
+.phone-content h5 {
+    color: #85909e;
+    font-size: 1.5vw;
+}
+
+.phone-content h3 {
+    color: white !important;
+    font-weight: 500;
+    font-size: 1.8vw;
+}
+
+.social-icons {}
+
+.social-icons a i {
+    color: #9ba4b0;
+    font-size: 1.8vw;
+    margin-left: 0.8vw;
+    margin-top: 2vw;
+}
+
+.git-inner-sec-right {
+    width: 42vw;
+    background: #0e1826;
+    border: 0.2vw solid #00ffe1;
+    border-radius: 1vw;
+    padding: 1.5vw 1.5vw;
+}
+
+.git-inner-sec-right h2 {
+    color: white;
+    margin-bottom: 1.5vw;
+}
+
+.git-inner-sec-right p {
+    color: white;
+    line-height: 1.6vw;
+    margin-bottom: 1vw;
+}
+
+.cv-request {
+    height: 4.5vw;
+    background: #1b2a38;
+    padding: 0.7vw 1.5vw;
+    border-radius: 0.8vw;
+}
+
+.cv-download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.2vw solid #00ffdd;
+    gap: 1vw;
+    border-radius: 0.8vw;
+    margin-top: 1vw;
+}
+
+.cv-download i {
+    font-size: 1.6vw;
+    color: #00ffdd;
+}
+
+p.cvd {
+    color: #00ffdd;
+    margin-bottom: 0vw;
+    padding: 1vw;
+}
+
+/* sec 4 css end */
+
+/* sec 5 start */
+.sec-5 {
+    width: 85vw;
+    margin-left: 7vw;
+    text-align: center;
+    padding-bottom: 5vw;
+}
+
+.sec-5 h6 {
+    color: #9aa393;
+    font-size: 1.2vw;
+    margin-bottom: 1vw;
+}
+
+.sec-5 p {
+    color: #697180;
+}
+
+/* sec 5 end */
 
 /* container css end */
