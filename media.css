@@ -148,9 +148,30 @@
         margin-bottom: 1vw;
     }
 
+    /* sec 2 start */
+    .sec-2 {
+        height: auto;
+    }
+
+    .sec-2-inner {
+        height: auto;
+        gap: 2vw;
+    }
+
+    .s2i-box {
+        width: 85vw;
+        height: auto;
+    }
 
 
 
+
+    /* sec 3 start */
+    .sec-3 {
+        height: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
 
 
 }
