@@ -316,21 +316,44 @@
     }
 
     .git-inner-sec-right h2 {
-    color: white;
-    margin-bottom: 1.5vw;
-    font-size: 5vw;
-}
+        color: white;
+        margin-bottom: 1.5vw;
+        font-size: 5vw;
+    }
 
     .git-inner-sec-right p {
-    line-height: 4vw;
-    margin-bottom: 2vw;
-}
+        line-height: 4vw;
+        margin-bottom: 2vw;
+        font-size: 3vw;
+    }
 
-    .cv-request p {
-    color: white;
-    line-height: 4vw;
-    margin-bottom: 2vw;
-}
+    .cv-download {
+        gap: 2vw;
+    }
+
+    .cv-download i {
+        font-size: 4vw;
+    }
+
+    p.cvd {
+        font-size: 3vw;
+    }
+
+    /* sec 5 start */
+    .sec-5 h6 {
+        color: #9aa393;
+        font-size: 3vw;
+        margin-bottom: 1vw;
+    }
+
+    .sec-5 p {
+        font-size: 3vw;
+    }
+
+    .fa-solid,
+    .fas {
+        font-size: 3vw;
+    }
 
 
 
