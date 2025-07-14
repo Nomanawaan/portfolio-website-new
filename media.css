@@ -189,6 +189,18 @@
         width: 72vw;
     }
 
+    p.css {
+        width: 68vw;
+    }
+
+    p.js {
+        width: 64vw;
+    }
+
+    p.bootstrap {
+        width: 72vw;
+    }
+
     p.percent {
         width: 80vw;
         font-size: 3vw;
@@ -368,6 +380,7 @@
 
     p.cvd {
         font-size: 3vw;
+        margin-bottom: 0vw;
     }
 
     /* sec 5 start */
