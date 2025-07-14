@@ -60,6 +60,7 @@ header {
 
 .header-center ul li a {
     color: #c9d5d6;
+    font-weight: 600;
 }
 
 .header-right {
@@ -273,12 +274,25 @@ a#hrl {
     height: 32vw;
     display: flex;
     column-gap: 2vw;
+    position: relative;
 }
 
 .sec-1-left {
-    width: 60vw;
+    width: 50vw;
     height: 27vw;
-    padding: 4vw 0vw;
+    padding: 2vw 0vw;
+    position: absolute;
+    animation: slideLeft 2s ease-in-out forwards;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 .sec-1-left p {
@@ -293,6 +307,18 @@ a#hrl {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    animation: slideRight 2s ease-in-out forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(300%);
+    }
+
+    100% {
+        transform: translateX(185%);
+    }
 }
 
 .sec-1-right-inner {
@@ -451,6 +477,35 @@ p.percent {
     text-align: right;
     color: #c9cfd6;
     font-size: 1.8vw;
+}
+
+.ani-left{
+    position: relative;
+    animation: slideLeft 2s ease-in-out forwards;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.ani-right{
+    position: relative;
+    animation: slideRight2 2s ease-in-out backwards;
+}
+@keyframes slideRight2 {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 
@@ -624,7 +679,20 @@ p.percent {
 .git-inner-sec-left {
     width: 42vw;
     /* background: red; */
+    position: relative;
+    animation: sec4Left 2s ease-in-out forwards;
 }
+ 
+@keyframes sec4Left {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+
 
 .git-inner-sec-left h2 {
     margin-bottom: 0.6vw;
@@ -635,6 +703,7 @@ p.percent {
 .git-inner-sec-left p {
     color: white;
     font-size: 1.6vw;
+    line-height: 2vw;
 }
 
 .git-inner-contact {
@@ -715,6 +784,18 @@ p.percent {
     border: 0.2vw solid #00ffe1;
     border-radius: 1vw;
     padding: 1.5vw 1.5vw;
+    position: relative;
+    animation: sec4Right 2s ease-in-out backwards;
+}
+
+@keyframes sec4Right {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 .git-inner-sec-right h2 {
@@ -733,6 +814,17 @@ p.percent {
     background: #1b2a38;
     padding: 0.7vw 1.5vw;
     border-radius: 0.8vw;
+}
+
+.cvh {
+    background: linear-gradient(to right, #00fae1, #00c8ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.cvh:hover {
+    color: red;
 }
 
 .cv-download {
