@@ -1,5 +1,6 @@
 @media screen and (max-width: 575px) {
 
+    /* header stat */
     .header-left {
         width: 22vw;
     }
@@ -22,9 +23,10 @@
     }
 
     a.hr {
-        font-size: 1.7vw; 
+        font-size: 1.7vw;
     }
 
+    /* hero sec start */
     .hero-sec {
         width: 85vw;
         height: auto;
@@ -51,6 +53,7 @@
     .bottom-p {
         line-height: 3.5vw;
         font-size: 3vw;
+        text-align: justify;
     }
 
     a#hrl {
@@ -80,26 +83,70 @@
         font-size: 3vw;
     }
 
+    .line-container {
+        display: none;
+    }
 
+    /* sec 1 start */
+    .sec-1 {
+        height: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
 
+    .heading h2 {
+        font-size: 4vw;
+    }
 
+    .heading h2::after {
+        width: 65vw;
+        top: 2.3vw;
+        left: 20vw;
+    }
 
+    .sec-1-inner {
+        height: auto;
+        flex-direction: column;
+    }
 
+    .sec-1-left {
+        width: 85vw;
+        height: auto;
+    }
 
+    .sec-1-left p {
+        font-size: 3vw;
+        line-height: 3vw;
+        text-align: justify;
+    }
 
+    .sec-1-right {
+        width: 85vw;
+        height: auto;
+    }
 
+    .sec-1-right-inner {
+        width: 85vw;
+        height: auto;
+    }
 
+    .sec-1-right-inner h4 {
+        font-size: 4vw;
+    }
 
+    .sri-box p {
+        font-size: 3vw;
+    }
 
+    .sri-box i {
+        width: 3vw;
+        height: 3vw;
+        font-size: 1.9vw;
+    }
 
-
-
-
-
-
-
-
-
+    .sri-box {
+        margin-bottom: 1vw;
+    }
 
 
 
