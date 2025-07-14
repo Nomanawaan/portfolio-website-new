@@ -35,25 +35,25 @@
         height: auto;
     }
 
-    .hero-sec-left h1 {
-        font-size: 6vw;
-    }
-
-    .hero-sec-left h4 {
+    .top-p {
         font-size: 3vw;
     }
 
-    .top-p {
-        font-size: 2.5vw;
+    .hero-sec-left h1 {
+        font-size: 7vw;
+    }
+
+    .hero-sec-left h4 {
+        font-size: 4vw;
     }
 
     .bottom-p {
-        line-height: 3vw;
-        font-size: 2vw;
+        line-height: 3.5vw;
+        font-size: 3vw;
     }
 
     a#hrl {
-        font-size: 1.7vw;
+        font-size: 2vw;
     }
 
     .hero-sec-right {
