@@ -161,8 +161,38 @@
     .s2i-box {
         width: 85vw;
         height: auto;
+        height: 24vw;
     }
 
+    .box-cont i {
+        font-size: 5vw;
+    }
+
+    .box-cont h3 {
+        font-size: 4vw;
+    }
+
+    .cont {
+        font-size: 3vw;
+    }
+
+    .cont p {
+        line-height: 3vw;
+        text-align: justify;
+    }
+
+    .line {
+        width: 80.5vw;
+    }
+
+    p.html {
+        width: 72vw;
+    }
+
+    p.percent {
+        width: 80vw;
+        font-size: 3vw;
+    }
 
 
 
