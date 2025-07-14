@@ -116,7 +116,7 @@
 
     .sec-1-left p {
         font-size: 3vw;
-        line-height: 3vw;
+        line-height: 3.5vw;
         text-align: justify;
     }
 
@@ -161,7 +161,7 @@
     .s2i-box {
         width: 85vw;
         height: auto;
-        height: 24vw;
+        padding: 3vw 2vw 6vw 2vw;
     }
 
     .box-cont i {
@@ -202,6 +202,49 @@
         margin-top: 10vw;
         margin-bottom: 10vw;
     }
+
+    .sec-3 .heading h2::after {
+        width: 59.5vw;
+        top: 2.6vw;
+        left: 25vw;
+    }
+
+    .grid-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hover-box {
+        width: 81vw;
+    }
+
+    .image-container {
+        width: 81vw;
+        height: 35vw;
+    }
+
+    .image-container i {
+        font-size: 15vw;
+    }
+
+    .hover-text {
+        width: 81vw;
+        height: 35vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
