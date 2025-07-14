@@ -1,5 +1,29 @@
 @media screen and (max-width: 575px) {
 
+    .header-left {
+        width: 22vw;
+    }
+
+    .header-left .h2 {
+        font-size: 3vw;
+    }
+
+    .header-center {
+        width: 40vw;
+    }
+
+    .header-center ul li {
+        font-size: 2vw;
+    }
+
+    .header-right {
+        width: 15vw;
+    }
+
+    a.hr {
+        font-size: 1.7vw;
+    }
+
     .hero-sec {
         width: 85vw;
         height: auto;
@@ -11,8 +35,25 @@
         height: auto;
     }
 
+    .hero-sec-left h1 {
+        font-size: 6vw;
+    }
+
+    .hero-sec-left h4 {
+        font-size: 3vw;
+    }
+
+    .top-p {
+        font-size: 2.5vw;
+    }
+
     .bottom-p {
         line-height: 3vw;
+        font-size: 2vw;
+    }
+
+    a#hrl {
+        font-size: 1.7vw;
     }
 
     .hero-sec-right {
