@@ -1,0 +1,67 @@
+@media screen and (max-width: 575px) {
+
+    .hero-sec {
+        width: 85vw;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .hero-sec-left {
+        width: inherit;
+        height: auto;
+    }
+
+    .bottom-p {
+        line-height: 3vw;
+    }
+
+    .hero-sec-right {
+        width: inherit;
+        height: auto;
+    }
+
+    .box {
+        width: 40vw;
+        height: 40vw;
+    }
+
+    .box i {
+        font-size: 10vw;
+        margin-bottom: 3vw;
+    }
+
+    .box h3 {
+        font-size: 3vw;
+    }
+
+    .box p {
+        font-size: 3vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
