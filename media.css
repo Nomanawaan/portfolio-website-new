@@ -1,6 +1,6 @@
 @media screen and (max-width: 575px) {
 
-    /* .header-left {
+    .header-left {
         width: 22vw;
     }
 
@@ -25,7 +25,7 @@
         font-size: 1.7vw; 
     }
 
-    .hero-sec {
+    /* .hero-sec {
         width: 85vw;
         height: auto;
         flex-direction: column;
