@@ -145,6 +145,7 @@ a.hr {
     font-size: 1.6vw;
     color: #959eab;
     line-height: 2vw;
+    text-align: justify;
 }
 
 button.hrl {
@@ -299,6 +300,7 @@ a#hrl {
     color: #d0d5db;
     font-size: 1.5vw;
     line-height: 2vw;
+    text-align: justify;
 }
 
 .sec-1-right {
@@ -432,6 +434,7 @@ i.bootstrap {
 .cont p {
     line-height: 1.8vw;
     color: #c9cfd6;
+    text-align: justify;
 }
 
 .line {
@@ -479,7 +482,7 @@ p.percent {
     font-size: 1.8vw;
 }
 
-.ani-left{
+.ani-left {
     position: relative;
     animation: slideLeft 2s ease-in-out forwards;
 }
@@ -494,10 +497,11 @@ p.percent {
     }
 }
 
-.ani-right{
+.ani-right {
     position: relative;
     animation: slideRight2 2s ease-in-out backwards;
 }
+
 @keyframes slideRight2 {
     0% {
         transform: translateX(100%);
@@ -614,10 +618,12 @@ p.percent {
 
 .hover-text h3 {
     margin-bottom: 1vw;
+    font-size: 1.6vw;
 }
 
 .hover-text p {
     line-height: 1.6vw;
+    font-size: 1.2vw;
 }
 
 .hover-box:hover .hover-text {
@@ -643,7 +649,7 @@ p.percent {
     /* Darker background for tags */
     padding: 5px 10px;
     border-radius: 5px;
-    font-size: 0.9em;
+    font-size: 1.4vw;
 }
 
 
@@ -682,7 +688,7 @@ p.percent {
     position: relative;
     animation: sec4Left 2s ease-in-out forwards;
 }
- 
+
 @keyframes sec4Left {
     0% {
         transform: translateX(-100%);
@@ -704,6 +710,7 @@ p.percent {
     color: white;
     font-size: 1.6vw;
     line-height: 2vw;
+    text-align: justify;
 }
 
 .git-inner-contact {
@@ -716,12 +723,12 @@ p.percent {
 }
 
 .email-icon {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 5vw;
+    /* height: 3.5vw; */
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2vw;
+    border-radius: 25px;
     font-size: 1.4vw;
     /* margin-top: 1vw; */
     color: white;
@@ -736,26 +743,33 @@ p.percent {
 .email-content h3 a {
     color: white !important;
     font-weight: 500;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
 .phone {
     display: flex;
     margin-top: 1vw;
+    margin-top: 1vw;
     gap: 1vw;
 }
 
 .phone-icon {
-    width: 3.5vw;
-    height: 3.5vw;
+    width: 5vw;
+    height: 5vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 2vw;
+    border-radius: 25px;
     font-size: 1.4vw;
     /* margin-top: 1vw; */
     color: white;
     background: #012140;
+}
+
+.phone-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
 }
 
 .phone-content h5 {
@@ -766,7 +780,7 @@ p.percent {
 .phone-content h3 {
     color: white !important;
     font-weight: 500;
-    font-size: 1.8vw;
+    font-size: 1.4vw;
 }
 
 .social-icons {}
@@ -786,6 +800,9 @@ p.percent {
     padding: 1.5vw 1.5vw;
     position: relative;
     animation: sec4Right 2s ease-in-out backwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @keyframes sec4Right {
@@ -805,15 +822,18 @@ p.percent {
 
 .git-inner-sec-right p {
     color: white;
-    line-height: 1.6vw;
+    line-height: 2vw;
     margin-bottom: 1vw;
+    text-align: justify;
 }
 
 .cv-request {
-    height: 4.5vw;
+    height: 5.5vw;
     background: #1b2a38;
     padding: 0.7vw 1.5vw;
     border-radius: 0.8vw;
+    display: flex;
+    align-items: baseline;
 }
 
 .cvh {

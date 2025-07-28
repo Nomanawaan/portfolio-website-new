@@ -1,3 +1,4 @@
+/* responsive screen for mobile 575px */
 @media screen and (max-width: 575px) {
 
     /* header stat */
@@ -402,6 +403,61 @@
     }
 
 
+
+
+
+
+}
+
+/* responsive screen for tablet 767px */
+@media screen and (max-width: 767px) {
+    .hero-sec-left h4 {
+        margin-bottom: 0vw;
+    }
+
+    .image-container {
+        height: 16vw;
+    }
+
+
+    .bottom-p {
+        text-align: justify;
+    }
+
+    .hover-text h3 {
+        font-size: 1.4vw;
+    }
+
+    .hover-text p {
+        line-height: 1.6vw;
+        font-size: 1.2vw;
+    }
+
+    .sec-1-left p {
+        text-align: justify;
+    }
+
+    .cont p {
+        text-align: justify;
+    }
+
+    .tags span {
+        padding: 2px 5px;
+        font-size: 1.2vw;
+    }
+
+    .git-inner-sec-left p {
+        text-align: justify;
+    }
+
+
+
+
+    .git-inner-sec-right p {
+        font-size: 1.4vw;
+        text-align: justify;
+        line-height: 2vw;
+    }
 
 
 
