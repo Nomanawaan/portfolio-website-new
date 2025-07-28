@@ -54,6 +54,7 @@
         line-height: 3.5vw;
         font-size: 3vw;
         text-align: justify;
+        width: 60vw;
     }
 
     a#hrl {
@@ -89,7 +90,7 @@
 
     /* sec 1 start */
     .sec-1 {
-        height: auto;
+        height: 62vw;
         margin-top: 10vw;
         margin-bottom: 10vw;
     }
@@ -177,7 +178,7 @@
     }
 
     .cont p {
-        line-height: 3vw;
+        line-height: 4vw;
         text-align: justify;
     }
 
@@ -291,6 +292,7 @@
     .git-inner-sec-left p {
         font-size: 3vw;
         text-align: justify;
+        line-height: 4vw;
     }
 
     .email-icon {
@@ -301,7 +303,7 @@
     }
 
     .email-content h5 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .email-content h3 a {
@@ -316,7 +318,7 @@
     }
 
     .phone-content h5 {
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     .phone-content h3 {
