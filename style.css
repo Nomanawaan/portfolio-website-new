@@ -891,3 +891,35 @@ p.cvd {
 /* sec 5 end */
 
 /* container css end */
+
+
+
+
+
+
+
+
+/* General styling (you can customize as needed) */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.header-center ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  display: none; /* hidden by default */
+}
+
+/* Responsive: Mobile and Tablet */
+@media (max-width: 768px) {
+  
+}
