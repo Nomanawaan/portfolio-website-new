@@ -634,7 +634,6 @@
     }
 
     .header-desk-inner {
-        width: 74vw;
         display: flex;
         justify-content: space-between;
     }
