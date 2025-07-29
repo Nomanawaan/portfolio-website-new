@@ -1014,14 +1014,6 @@ p.cvd {
 
 /* container css end */
 
-
-
-
-
-
-
-
-/* General styling (you can customize as needed) */
 header {
     display: flex;
     justify-content: space-between;
@@ -1041,6 +1033,3 @@ header {
     display: none;
     /* hidden by default */
 }
-
-/* Responsive: Mobile and Tablet */
-@media (max-width: 768px) {}
