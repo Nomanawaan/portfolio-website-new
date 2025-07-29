@@ -1009,7 +1009,10 @@ p.cvd {
 .sec-5 p {
     color: #697180;
 }
-
+.nn{
+    color: white;
+    /* font-weight: 700; */
+}
 /* sec 5 end */
 
 /* container css end */
