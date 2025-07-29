@@ -537,7 +537,7 @@
         top: 5vw;
         left: 20vw;
         z-index: 99;
-        width: 26vw;
+        width: 25vw;
     }
 
     .hero-sec-left h4 {
@@ -628,6 +628,9 @@
 
 /* responsive for desktop screen min width 1025px */
 @media (min-width: 1025px) and (max-width:1980px) {
+    .container{
+        overflow: hidden;
+    }
     header {
         height: auto;
         padding: 1vw 0;
