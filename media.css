@@ -1,5 +1,5 @@
 /* responsive screen for mobile 575px */
-@media screen and (max-width: 575px) {
+@media only screen and (max-width: 575px) {
 
     /* header stat */
     .header-left {
@@ -231,15 +231,16 @@
 
     .hover-box {
         width: 81vw;
+        height: 35vw;
     }
 
     .image-container {
         width: 81vw;
-        height: 35vw;
+        height: 35vw !important;
     }
 
     .image-container i {
-        font-size: 15vw;
+        font-size: 13vw;
     }
 
     .hover-text {
@@ -249,15 +250,16 @@
 
     .hover-text h3 {
         margin-bottom: 4vw;
+        font-size: 5vw;
     }
 
     .hover-text p {
         line-height: 4vw;
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .tags span {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
 
@@ -410,7 +412,7 @@
 }
 
 /* responsive screen for tablet 767px */
-@media screen and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 1024px) {
     .hero-sec-left h4 {
         margin-bottom: 0vw;
     }
