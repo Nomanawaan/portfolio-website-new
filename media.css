@@ -151,9 +151,21 @@
         height: auto;
     }
 
+    .lg-circle {
+        width: 65vw;
+        height: 65vw;
+        border: 0.1vw solid #00ffdd;
+        border-radius: 270px;
+    }
+
+    .sm-circle {
+        width: 45vw;
+        height: 45vw;
+    }
+
     .box {
-        width: 40vw;
-        height: 40vw;
+        width: 25vw;
+        height: 25vw;
     }
 
     .box i {
@@ -171,6 +183,52 @@
 
     .line-container {
         display: none;
+    }
+
+    .html-circle {
+        bottom: 40.3vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .css-circle {
+        top: 7vw;
+        left: 37vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .bootstrap-circle {
+        top: 7vw;
+        right: 37vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .git-circle {
+        top: 30vw;
+        right: 37vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .js-circle {
+        top: 30vw;
+        left: 37vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
+    }
+
+    .wp-circle {
+        top: 41vw;
+        width: 8vw;
+        height: 8vw;
+        font-size: 2.5vw;
     }
 
     /* sec 1 start */
@@ -622,6 +680,8 @@
 
 
 
+
+
 }
 
 
@@ -629,9 +689,10 @@
 
 /* responsive for desktop screen min width 1025px */
 @media (min-width: 1025px) and (max-width:1980px) {
-    .container{
+    .container {
         overflow: hidden;
     }
+
     header {
         height: auto;
         padding: 1vw 0;
