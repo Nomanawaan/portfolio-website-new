@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (New)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+
+</head>
+
+<body>
+
+    <!-- container start -->
+    <div class="container">
+
+        <!-- header start -->
+
+
+        <header class="header-desk">
+            <div class="header-desk-inner">
+
+                <div class="header-left">
+                    <h2 class="h2"><a href="./index.html" target="_blank">Noman Awan</a></h2>
+                </div>
+
+                <div class="header-center">
+                    <ul class="show">
+                        <li><a href="./about.html" target="_blank">About</a></li>
+                        <li><a href="./skills.html" target="_blank">Skills</a></li>
+                        <li><a href="./portolio.html" target="_blank">Portfolio</a></li>
+                        <li><a href="./contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-right">
+                    <button><a href="./contact.html" class="hr">Get in Touch</a></button>
+                </div>
+
+            </div>
+        </header>
+
+        <header class="header-mob-tab">
+            <div class="header-mob-tab-inner">
+
+                <div class="header-left">
+                    <h2 class="h2"><a href="./index.html" target="_blank">Noman Awan</a></h2>
+                </div>
+
+
+
+                <!-- Navigation Menu -->
+                <nav class="header-center" id="navMenu">
+                    <ul class="show">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button class="hr"><a href="#">Get in Touch</a></button></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Icon (visible on mobile) -->
+                <div class="hamburger" onclick="toggleMenu()">
+                    ☰
+                </div>
+
+            </div>
+        </header>
+
+        <!-- header end -->
+
+
+
+
+        <!-- hero sec contact page start -->
+        <div class="hero-sec-contact">
+
+            <div class="hsc-inner">
+                
+                <h2>Let's Collaborate</h2>
+                <p>
+                    I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                    Feel free to reach out to me through the form below or connect with me on social media.
+                </p> 
+
+            </div>
+
+        </div>
+        <!-- hero sec contact page end -->
+
+        <!-- sec 4 start -->
+        <div class="sec-4">
+
+            <div class="heading">
+                <h2>Get In Touch</h2>
+            </div>
+
+            <div class="git-inner-sec">
+
+                <div class="git-inner-sec-left">
+                    <h2>Let's Connect</h2>
+                    <p>
+                        Whether you're looking for a web designer for your project or just want to say hello, I'd love
+                        to hear from you. Feel free to contact me using the information provided.
+                    </p>
+                    <div class="git-inner-contact">
+
+                        <div class="email">
+                            <div class="email-icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="email-content">
+                                <h5>Email:</h5>
+                                <h3><a href="">nomiawandx@gmail.com</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="phone">
+
+                            <div class="phone-icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+
+                            <div class="phone-content">
+                                <h5>Phone #:</h5>
+                                <h3>0311-1234567</h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/noman-awan-767081357/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nomanawaan/" target="_blank"><i
+                                class="fa-brands fa-square-github"></i></a>
+                        <a href="https://x.com/nomiawandx" target="_blank"><i
+                                class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://nomanawaan.github.io/portfolio-website-new/" target="_blank"><i
+                                class="fa-solid fa-globe"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="git-inner-sec-right">
+                    <h2>CV Download</h2>
+                    <p>
+                        Interested in my detailed work experience and qualifications? You can download my complete CV by
+                        clicking the button below.
+                    </p>
+                    <div class="cv-request">
+                        <p>
+                            Send an email with subject "CV Request" to: <br />
+                            <a href="mailto:nomiawandx@gmail.com" class="cvh">nomiawandx@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="cv-download">
+                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <p class="cvd">Request CV Download</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+        <!-- sec 4 end -->
+
+        
+
+
+        <!-- sec between line start -->
+        <div class="line-container"></div>
+        <!-- sec between line end -->
+
+        <!-- sec 5 start -->
+        <div class="sec-5">
+            <h6>Designed & Developed by <span class="nn">Noman Awan</span></h6>
+            <!-- <p>
+                <i class="fa-solid fa-copyright"></i>
+                2025 All Rights Reserved
+            </p> -->
+        </div>
+        <!-- sec 5 end -->
+
+    </div>
+    <!-- inner container end -->
+
+
+    <!-- javascript code for hamburger responsive -->
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.header-center ul');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio (New)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+
+</head>
+
+<body>
+
+    <!-- container start -->
+    <div class="container">
+
+        <!-- header start -->
+
+
+        <header class="header-desk">
+            <div class="header-desk-inner">
+
+                <div class="header-left">
+                    <h2 class="h2"><a href="#">Noman Awan</a></h2>
+                </div>
+
+                <div class="header-center">
+                    <ul class="show">
+                        <li><a href="./about.html" target="_blank">About</a></li>
+                        <li><a href="./skills.html" target="_blank">Skills</a></li>
+                        <li><a href="./portolio.html" target="_blank">Portfolio</a></li>
+                        <li><a href="./contact.html" target="_blank">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="header-right">
+                    <button><a href="./contact.html" class="hr">Get in Touch</a></button>
+                </div>
+
+            </div>
+        </header>
+
+        <header class="header-mob-tab">
+            <div class="header-mob-tab-inner">
+
+                <div class="header-left">
+                    <h2 class="h2"><a href="#">Noman Awan</a></h2>
+                </div>
+
+
+
+                <!-- Navigation Menu -->
+                <nav class="header-center" id="navMenu">
+                    <ul class="show">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><button class="hr"><a href="#">Get in Touch</a></button></li>
+                    </ul>
+                </nav>
+
+                <!-- Hamburger Icon (visible on mobile) -->
+                <div class="hamburger" onclick="toggleMenu()">
+                    ☰
+                </div>
+
+            </div>
+        </header>
+
+        <!-- header end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- sec between line start -->
+        <div class="line-container"></div>
+        <!-- sec between line end -->
+
+        <!-- sec 5 start -->
+        <div class="sec-5">
+            <h6>Designed & Developed by <span class="nn">Noman Awan</span></h6>
+            <!-- <p>
+                <i class="fa-solid fa-copyright"></i>
+                2025 All Rights Reserved
+            </p> -->
+        </div>
+        <!-- sec 5 end -->
+
+    </div>
+    <!-- inner container end -->
+
+
+    <!-- javascript code for hamburger responsive -->
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('.header-center ul');
+            menu.classList.toggle('show');
+        }
+    </script>
+</body>
+
+</html>
