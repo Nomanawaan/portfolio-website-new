@@ -802,6 +802,20 @@ p.wp {
     margin-left: 7vw;
 }
 
+h2.s4-h2 {
+    font-size: 2.5vw;
+    margin-bottom: 2vw;
+    color: #00f5e4;
+    text-decoration: 2px underline;
+}
+
+.s4c-p{
+    font-size: 1.6vw;
+    margin-bottom: 5vw;
+    color: white;
+    line-height: 2vw;
+}
+
 .sec-4 .heading h2::after {
     content: "";
     display: block;
@@ -1145,6 +1159,13 @@ header {
     margin-left: 7vw;
 }
 
+.s1p-inner p {
+    font-size: 1.6vw;
+    margin-bottom: 5vw;
+    color: white;
+    line-height: 2vw;
+}
+
 .project-box {
     width: 85vw;
     /* background: yellowgreen; */
@@ -1162,6 +1183,31 @@ header {
     border-radius: 12px;
     cursor: pointer;
     background: #001e3b;
+    
+}
+.p1l{
+    animation: p1l 2s ease-in-out forwards;
+}
+@keyframes p1l {
+    0% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
+}
+.p1r{
+    animation: p1r 2s ease-in-out backwards;
+}
+@keyframes p1r {
+    0% {
+        transform: translateX(200%);
+    }
+
+    100% {
+        transform: translateX(0%);
+    }
 }
 
 .project-1-content {
@@ -1169,14 +1215,14 @@ header {
     top: 0;
     left: 0;
     color: white;
-    width: 40vw;
+    width: 42vw;
     height: 30vw;
     z-index: 2;
     opacity: 0;
     display: flex;
     flex-direction: column;
     gap: 0.5vw;
-    padding: 1vw;
+    padding: 1.5vw 2vw;
     text-align: justify;
 }
 
@@ -1185,32 +1231,33 @@ header {
     transition: opacity 0.3s ease-in-out;
 }
 
-.project-1-content h2{
+.project-1-content h2 {
     font-size: 2vw;
 }
-.project-1-content h4{
+
+.project-1-content h4 {
     font-size: 1.3vw;
     font-weight: 600;
 }
-.sc-bold{
+
+.sc-bold {
     font-weight: 900;
     font-size: 1.6;
-    color: black;
+    color: #00d2fc;
     text-decoration: 2px underline;
 }
 
-.project-1-content p{
+.project-1-content p {
     font-size: 1.3vw;
     line-height: 1.5vw;
 }
+
 .project-1-img {
     position: absolute;
     z-index: 1;
     opacity: 1;
-}
-
-.project-1-img img{
-    ;
+    background: rgb(65, 65, 65);
+    transition: opacity 0.4s ease-in-out;
 }
 
 .project-1:hover .project-1-img {
@@ -1223,4 +1270,154 @@ header {
 .project-2 {
     width: 42vw;
     background: brown;
+}
+
+/* skills page css start */
+.hero-sec-skill {
+    width: 100%;
+    background-image: url('./images/skill\ remover.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hss-inner {
+    width: 85vw;
+    height: 38vw;
+    margin-left: 7vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hss-inner h2 {
+    font-size: 3.4vw;
+}
+
+.hss-inner p {
+    font-size: 1.6vw;
+    color: #000;
+    margin-top: 1vw;
+    line-height: 2vw;
+    text-align: justify;
+    font-weight: 600;
+}
+
+.flex-sec-1-skill {
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    padding: 5vw 0;
+    margin-left: 7vw;
+}
+
+.flex-sec-1-skill p{
+    font-size: 1.6vw;
+    color: white;
+    margin-bottom: 4vw;
+    line-height: 2vw;
+}
+.sec-1-skill {
+    width: 42vw;
+    background: #001e3b;
+    border-radius: 10px;
+}
+
+.s1s-inner {
+    width: 42vw;
+    color: white;
+    padding: 2vw;
+}
+
+.s1s-inner h2 {
+    font-size: 2vw;
+    margin-bottom: 1vw;
+    color: #00d2fc;
+    text-decoration: 2px underline;
+}
+
+.s1s-inner p {
+    font-size: 1.4vw;
+    line-height: 2vw;
+
+}
+
+.heading-skill {
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #00d2fc;
+}
+
+/* about page css start */
+.hero-sec-about{
+    width: 100%;
+    background-image: url('./images/about\ removed.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hsa-inner{
+    width: 85vw;
+    height: 38vw;
+    margin-left: 7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hsa-inner h2{
+    font-size: 3.5vw;
+}
+.sec-1-about{
+    width: 100%;
+    padding: 5vw 0;
+
+}
+.s1a-inner{
+    width: 85vw;
+    margin-left: 7vw;
+}
+.s1a-inner p{
+    font-size: 1.6vw;
+    color: white;
+    line-height: 2vw;
+}
+.sec-2-about,
+.sec-3-about{
+    width: 100%;
+    padding: 0;
+}
+.sec-3-about{
+    width: 100%;
+    padding: 5vw 0;
+}
+.s2a-inner,
+.s3a-inner{
+    width: 85vw;
+    margin-left: 7vw;
+}
+.s2a-inner h4,
+.s3a-inner h4{
+    font-size: 2.5vw;
+    color: #00d2fc;
+    margin-bottom: 1vw;
+    text-decoration: 2px underline;
+}
+.s2a-inner p,
+.s3a-inner p{ 
+    font-size: 1.4vw;
+    color: white;
+    line-height: 2vw;
+    text-align: justify;
+}
+.s3a-ul{
+    color: white;
+    padding: 1vw 0vw 5vw 1.2vw;
+    
+}
+.s3a-ul li{
+    list-style: circle !important;
+    line-height: 2vw;
 }
