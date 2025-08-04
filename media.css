@@ -591,6 +591,10 @@
         font-size: 7vw;
     }
 
+    .flex-sec-1-skill {
+        gap: 3vw;
+    }
+
     .flex-sec-1-skill p {
         font-size: 3vw;
         line-height: 3.5vw;
@@ -612,13 +616,36 @@
         font-size: 3.5vw;
     }
 
+    /* portfolio page responsive css start */
+    .hrp-inner h2 {
+        font-size: 7vw;
+    }
 
+    .s1p-inner p {
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
 
+    .project-1 {
+        width: 85vw;
+        height: 75vw;
+    }
 
+    .project-1-content {
+        width: 85vw;
+    }
 
+    .project-1-content h2 {
+        font-size: 4vw;
+    }
 
+    .project-1-content h4 {
+        font-size: 3vw;
+    }
 
-
+    .project-1-content h4 {
+        font-size: 3vw;
+    }
 
 
 
