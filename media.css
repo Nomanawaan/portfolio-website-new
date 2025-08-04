@@ -99,7 +99,7 @@
         width: 30vw;
         padding: 0.5vw 1vw;
         border: none;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     .header-right {
@@ -553,7 +553,7 @@
     /* inner pages css start */
     /* about page css start */
     .hsa-inner h2 {
-        font-size: 7vw !important;
+        font-size: 7vw;
     }
 
     h2.s4-h2 {
@@ -586,8 +586,50 @@
         font-size: 3vw;
     }
 
+    /* skills page responsive css start */
+    .hss-inner h2 {
+        font-size: 7vw;
+    }
+
+    .flex-sec-1-skill p {
+        font-size: 3vw;
+        line-height: 3.5vw;
+    }
+
+    .sec-1-skill {
+        width: 85vw;
+    }
+
+    .s1s-inner {
+        width: 85vw;
+    }
+
+    .s1s-inner h2 {
+        font-size: 4vw;
+    }
+
+    .heading-skill {
+        font-size: 3.5vw;
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 }
+
+
+
+
+
+
 
 /* responsive screen for tablet 767px */
 @media (min-width: 576px) and (max-width: 1024px) {
