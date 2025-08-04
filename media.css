@@ -648,7 +648,15 @@
     }
 
 
+    /* contact page responsive code */
+    .hsc-inner h2 {
+        font-size: 7vw;
+    }
 
+    .s4c-p {
+    font-size: 3vw;
+    line-height: 3.5vw;
+}
 
 }
 
