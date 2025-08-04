@@ -598,6 +598,7 @@
     .flex-sec-1-skill p {
         font-size: 3vw;
         line-height: 3.5vw;
+        text-align: justify;
     }
 
     .sec-1-skill {
@@ -624,6 +625,7 @@
     .s1p-inner p {
         font-size: 3vw;
         line-height: 3.5vw;
+        text-align: justify;
     }
 
     .project-1 {
@@ -654,9 +656,10 @@
     }
 
     .s4c-p {
-    font-size: 3vw;
-    line-height: 3.5vw;
-}
+        font-size: 3vw;
+        line-height: 3.5vw;
+        text-align: justify;
+    }
 
 }
 
